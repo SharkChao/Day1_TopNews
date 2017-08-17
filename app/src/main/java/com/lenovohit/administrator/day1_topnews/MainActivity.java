@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         TranslateAnimation moveAnimation = new TranslateAnimation(
                 startLocation[0], endLocation[0], startLocation[1],
                 endLocation[1]);
-        moveAnimation.setDuration(300L);//动画时间
+        moveAnimation.setDuration(3000L);//动画时间
         //动画配置
         AnimationSet moveAnimationSet = new AnimationSet(true);
         moveAnimationSet.setFillAfter(false);//动画效果执行完毕后，View对象不保留在终止的位置
@@ -228,12 +228,16 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
      * @return
      */
     private ImageView getView(View view) {
+        //先销毁掉原来的缓存
         view.destroyDrawingCache();
+        //设置可以添加缓存
         view.setDrawingCacheEnabled(true);
+        //设置好imageview
         Bitmap cache = Bitmap.createBitmap(view.getDrawingCache());
-        view.setDrawingCacheEnabled(false);
         ImageView iv = new ImageView(this);
         iv.setImageBitmap(cache);
+        //清除缓存
+        view.setDrawingCacheEnabled(false);
         return iv;
     }
 

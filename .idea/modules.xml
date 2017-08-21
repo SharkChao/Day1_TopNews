@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/360floatwindowdemo/360floatwindowdemo.iml" filepath="$PROJECT_DIR$/360floatwindowdemo/360floatwindowdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Day1_TopNews.iml" filepath="$PROJECT_DIR$/Day1_TopNews.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contactsdemo/contactsdemo.iml" filepath="$PROJECT_DIR$/contactsdemo/contactsdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullrefreshdemo/pullrefreshdemo.iml" filepath="$PROJECT_DIR$/pullrefreshdemo/pullrefreshdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/treelistview/treelistview.iml" filepath="$PROJECT_DIR$/treelistview/treelistview.iml" />
     </modules>
   </component>

@@ -1,1 +1,1 @@
-include ':app', ':treelistview', ':360floatwindowdemo'
+include ':app', ':treelistview', ':360floatwindowdemo', ':contactsdemo', ':pullrefreshdemo'

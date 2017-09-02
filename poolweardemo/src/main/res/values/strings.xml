@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PoolWearDemo</string>
+    <string name="border_top">border_top</string>
+    <string name="border_bottom">border_bottom</string>
+    <string name="image_url">image_url</string>
+
+</resources>
